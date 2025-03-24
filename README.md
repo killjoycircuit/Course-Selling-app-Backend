@@ -9,7 +9,7 @@ npm install
 
 3.Set Up Environment-
 Create a config.js file with: 
-JWT_SECRET
+JWT_SECRET,
 JWT_Admin_SECRET
 
 Create a .env file with:
