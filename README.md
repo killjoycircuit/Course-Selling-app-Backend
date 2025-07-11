@@ -1,4 +1,4 @@
-# 📚 Course Selling Platform [Backend]
+# 📚 Course Selling Platform - Backend
 
 This is the backend server for a course-selling platform, built using **Node.js**, **Express**, and **MongoDB**. It supports both **user and admin authentication**, **course creation**, **purchase**, and **role-based access control**.
 
