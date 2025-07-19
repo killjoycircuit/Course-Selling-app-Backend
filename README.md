@@ -1,26 +1,56 @@
-# 📚 Course Selling Platform - Backend
+# 🎓 Course Selling Platform - Backend
 
-This is the backend server for a course-selling platform, built using **Node.js**, **Express**, and **MongoDB**. It supports both **user and admin authentication**, **course creation**, **purchase**, and **role-based access control**.
+This is the backend server for a course-selling platform built using **Node.js**, **Express**, and **MongoDB**. It provides functionality for **user and admin registration/login**, **course creation and purchase**, and **role-based access control** to ensure secure access to resources.
 
 ---
 
 ## 🚀 Features
 
-- ✅ JWT Authentication for Users & Admins
-- 🎓 Course Creation, Editing, and Purchase
-- 🔐 Protected Routes with Role Validation
-- 🌐 MongoDB for Data Persistence
+- ✅ **JWT Authentication** for both **Users** and **Admins**
+- 🔐 **Protected Routes** using middleware and **Role Validation**
+- 🎓 **Admins** can create, edit, and delete courses
+- 🛒 **Users** can view and purchase courses
+- 📦 **MongoDB + Mongoose** for robust and scalable data handling
+- 🗂️ Well-structured code with MVC pattern
+- 🌱 **Environment variables** managed via `.env`
 
 ---
 
-## 📦 Tech Stack
+## 🛠️ Tech Stack
 
-- Node.js + Express
-- MongoDB + Mongoose
-- JSON Web Tokens (JWT)
-- dotenv for environment variables
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB, Mongoose  
+- **Authentication:** JSON Web Tokens (JWT)  
+- **Environment Management:** dotenv  
+- **Password Hashing:** bcrypt  
+- **Validation & Middleware:** Custom Express Middleware
 
 ---
 
 
+## 📁 Project Structure
 
+```text
+course-selling-backend/
+├── controllers/
+│   ├── adminController.js
+│   ├── authController.js
+│   └── userController.js
+├── middlewares/
+│   ├── authMiddleware.js
+│   └── roleMiddleware.js
+├── models/
+│   ├── User.js
+│   ├── Admin.js
+│   └── Course.js
+├── routes/
+│   ├── adminRoutes.js
+│   ├── authRoutes.js
+│   └── userRoutes.js
+├── utils/
+│   └── generateToken.js
+├── .env
+├── .gitignore
+├── package.json
+├── server.js
+└── README.md
