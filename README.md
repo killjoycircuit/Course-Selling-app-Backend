@@ -11,8 +11,6 @@ This is the backend server for a course-selling platform built using **Node.js**
 - 🎓 **Admins** can create, edit, and delete courses
 - 🛒 **Users** can view and purchase courses
 - 📦 **MongoDB + Mongoose** for robust and scalable data handling
-- 🗂️ Well-structured code with MVC pattern
-- 🌱 **Environment variables** managed via `.env`
 
 ---
 
@@ -32,19 +30,17 @@ This is the backend server for a course-selling platform built using **Node.js**
 
 ```text
 course-selling-backend/
-├── middlewares/
-│   ├── user.js
-│   └── admin.js
-├── models/
-│   ├── User.js
-│   ├── Admin.js
-│   └── Course.js
+├── middleware/
+│   ├── auth.js
+│   └── role.js
 ├── routes/
-│   ├── user.js
 │   ├── admin.js
+│   ├── user.js
 │   └── course.js
-├── .env
 ├── .gitignore
-├── package.json
+├── README.md
+├── db.js
 ├── index.js
-└── README.md
+├── package.json
+├── package-lock.json
+
