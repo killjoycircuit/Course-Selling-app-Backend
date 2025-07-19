@@ -32,25 +32,19 @@ This is the backend server for a course-selling platform built using **Node.js**
 
 ```text
 course-selling-backend/
-├── controllers/
-│   ├── adminController.js
-│   ├── authController.js
-│   └── userController.js
 ├── middlewares/
-│   ├── authMiddleware.js
-│   └── roleMiddleware.js
+│   ├── user.js
+│   └── admin.js
 ├── models/
 │   ├── User.js
 │   ├── Admin.js
 │   └── Course.js
 ├── routes/
-│   ├── adminRoutes.js
-│   ├── authRoutes.js
-│   └── userRoutes.js
-├── utils/
-│   └── generateToken.js
+│   ├── user.js
+│   ├── admin.js
+│   └── course.js
 ├── .env
 ├── .gitignore
 ├── package.json
-├── server.js
+├── index.js
 └── README.md
