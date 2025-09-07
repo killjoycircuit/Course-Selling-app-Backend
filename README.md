@@ -18,10 +18,10 @@ This is the backend server for a course-selling platform built using **Node.js**
 
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB, Mongoose  
-- **Authentication:** JSON Web Tokens (JWT)  
+- **Authentication:** JWT  
 - **Environment Management:** dotenv  
 - **Password Hashing:** bcrypt  
-- **Validation & Middleware:** Custom Express Middleware
+- **Validation & Middleware:** Custom Middleware
 
 ---
 
