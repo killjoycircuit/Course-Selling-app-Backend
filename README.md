@@ -11,7 +11,6 @@ This is the backend server for a course-selling platform built using **Node.js**
 - 🎓 **Admins** can create, edit, and delete courses
 - 🛒 **Users** can view and purchase courses
 - 📦 **MongoDB + Mongoose** for robust and scalable data handling
-
 ---
 
 ## 🛠️ Tech Stack
